@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Introduction</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+
+
+  <body>
+    <header>
+      <h1>CSS Introduction</h1>
+    </header>
+
+    <!-- Table Start --> 
+
+    <table>
+        <caption>Tags and Examples</caption>
+        
+        <thead>
+            <tr>
+                <th>Properties and Values</th>
+                <th>Description</th>
+                <th>Example</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--Row 1-->
+            <tr>
+                <td class="firstcol">!important</td>
+                <td>Overrides any style and disregards specificity</td>
+                <td><code>p { <br>
+                    color: blue !important;<br>
+                  }<br>
+                  </code> </td>
+            </tr>
+            <!--Row 2-->
+            <tr>
+                <td class="firstcol">background-image</td>
+                <td>Changes the background of an element</td>
+                <td> <code>For URL links <br>
+                        .main-banner {<br>
+                        background-image: url('https://www.example.com/image.jpg');<br>
+                        }<br> 
+                        For local files <br>
+                        .main-banner { <br>
+                        background-image: url('images/mountains.jpg');<br>
+                        }<br>
+                    </code>
+                  </td>
+            </tr>
+           <!--Row 3-->
+            <tr>
+                <td class="firstcol">background-color</td>
+                <td>Sets the background color of the element</td>
+                <td><code> p {<br>
+                    background-color: blue;<br>
+                    }<br>
+                    </code></td>
+            </tr>
+            <!--Row 4-->
+            <tr>
+                <td class="firstcol">color</td>
+                <td>Sets the foreground color of the element</td>
+                <td><code> h1 {<br>
+                        color: red;<br>
+                        }<br>
+                     </code>
+                </td>
+            </tr>
+         <!--Row 5-->
+            <tr>
+                <td class="firstcol">font-family</td>
+                <td>Sets font type</td>
+                <td><code>.channel {<br>
+                    font-family: "Times New Roman", Times, serif;<br>
+                    }<br>
+                    </code>
+                </td>
+            </tr>
+            <!--Row 6-->
+            <tr>
+                <td class="firstcol">font-size</td>
+                <td>Sets text size using px or em<</td>
+                <td>
+                    <code> h3 {<br>
+                        font-size: 2.25em;<br>
+                        }<br>
+                    </code>
+                </td>
+            </tr>
+            <!--Row 7-->
+            <tr>
+                <td class="firstcol">margin</td>
+                <td>Creates space around elements outside of defined borders <br>
+                    W3Schools does a great job at outlining the specifics of the margin propery 
+                    <a href="https://www.w3schools.com/css/css_margin.asp">here</a>
+                </td>
+                <td>
+                    <code>
+                        .banner {
+                            margin: 25px 50px 75px 100px;
+                          }
+                    </code>
+                </td>
+            </tr>
+            <!--Row 8-->
+            <tr>
+                <td class="firstcol">text-align</td>
+                <td>Aligns text to its parent element <br>
+                    It can be set to left, center, right, or justify<br>
+                </td>
+                <td>
+                    <code> h1 {<br>
+                        text-align: center;<br>
+                        }<br>
+                    </code>
+                </td>
+            </tr>
+          
+        </tbody>
+    </table>
+<!-- Table End -->
+    
+  </body>
+</html>
